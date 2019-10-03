@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "GetMetadataToForEach",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/mycontainer/blobs/mydata",
+			"blobPathEndsWith": ".csv",
+			"scope": "/subscriptions/b3e5cde3-fa25-4411-b74c-37abee6b9771/resourceGroups/TrainingRG/providers/Microsoft.Storage/storageAccounts/training3oct",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
