@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerLocalAdventure",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=G1HDNSF2E\\SQLEXPRESS;initial catalog=AdventureWorks2016CTP3",
+			"userName": "LOGON\\212605577",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1Yjc2NzBlNi01YjhlLTQ4YzctODIwMy03MDcyZjJiYjc1ZWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
