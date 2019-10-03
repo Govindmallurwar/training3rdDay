@@ -30,42 +30,7 @@
 						"type": "AzureSqlSink",
 						"tableOption": "autoCreate"
 					},
-					"enableStaging": false,
-					"translator": {
-						"type": "TabularTranslator",
-						"mappings": [
-							{
-								"source": {
-									"name": "CustomerId",
-									"type": "String"
-								},
-								"sink": {
-									"name": "CustomerId",
-									"type": "String"
-								}
-							},
-							{
-								"source": {
-									"name": "Name",
-									"type": "String"
-								},
-								"sink": {
-									"name": "Name",
-									"type": "String"
-								}
-							},
-							{
-								"source": {
-									"name": "BalanceDue",
-									"type": "String"
-								},
-								"sink": {
-									"name": "BalanceDue",
-									"type": "String"
-								}
-							}
-						]
-					}
+					"enableStaging": false
 				},
 				"inputs": [
 					{
