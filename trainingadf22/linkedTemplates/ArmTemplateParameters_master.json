@@ -8,8 +8,8 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
-		"trigger1_properties_typeProperties_scope": {
-			"value": "/subscriptions/b3e5cde3-fa25-4411-b74c-37abee6b9771/resourceGroups/TrainingRG/providers/Microsoft.Storage/storageAccounts/training3oct"
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
 		},
 		"containerUri": {
 			"value": ""
